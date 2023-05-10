@@ -58,12 +58,13 @@ margin-right: 4rem;
   line-height: 23px;
   color: #000000;
   cursor: pointer;
-  text-underline-position: none;
+	  border:0;
+  text-underline-position: 0;
   display: inline-block;
   
 }
 .cv, .contact{
-  border:none;
+
 	  display: inline-block;
 }
 a{
@@ -112,14 +113,15 @@ a{
 section{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-  grid-gap: 10px;
+  grid-gap: 1rem;
   width: 100%;
   margin: auto;
 }
 article{
   display: grid;
+	  grid-auto-rows: min-content;
   grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-  grid-gap: 10px;
+  grid-gap: 1rem;
   width: 100%;
 }
 img{  
@@ -128,7 +130,7 @@ img{
   padding: 0;
   border: 0;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
 }
 
 .project1{
@@ -178,6 +180,8 @@ footer {
 
   color: #fff;
   display: flex;
+	width : 100%;
+	height : 200px;
   justify-content: space-between;
   padding: 4rem;
 }
