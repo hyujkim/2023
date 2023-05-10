@@ -111,81 +111,68 @@ a{
 /* Project styles */
 section{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100%));
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   grid-gap: 1rem;
-      width :100%;
-
-
-    margin : auto;
+  width: 100%;
+  margin: auto;
 }
 article{
-      display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100%));
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   grid-gap: 1rem;
-      width :100%;
+  width: 100%;
 }
 img{  
-
-
   width: 100%;
   height: 40%;
-  padding:none;
-	border :none;
+  padding: 0;
+  border: none;
   object-fit: cover;
-object-position: top;
-
+  object-position: top;
 }
 
 .project1{
-  display: absolute;
+  position: absolute;
   width: 100%;
   height: 400px;
-padding : none;
-
+  padding: 0;
 }
-
 
 .project2{
   display: block;
   width: 100%;
   height: 400px;
   object-position: center;
-  padding :none;
+  padding: 0;
 }
   
-
 .project3{
   display: block;
   width: 100%;
   height: 400px;
-
-  padding :none;
+  padding: 0;
 }
 
 .project4{
   display: block;
   width: 100%;
   height: 420px;
-  scale:105%;
-
-
-  padding :none;
- 
+  transform: scale(1.05);
+  padding: 0;
 }
 .project5{
   display: block;
   width: 100%;
   height: 400px;
-
-  padding-top :none;
+  padding-top: 0;
 }
 .project6{
   display: block;
   width: 100%;
   height: 400px;
-
-  padding :none;
+  padding: 0;
 }
+
 /* Footer styles */
 footer {
 
