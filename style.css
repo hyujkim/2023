@@ -58,7 +58,7 @@ margin-right: 4rem;
   line-height: 23px;
   color: #000000;
   cursor: pointer;
-  text-underline-position: 0;
+  text-underline-position: none;
   display: inline-block;
   
 }
@@ -70,7 +70,7 @@ a{
   display: inline-block;
   color: #000000;
 
-  text-decoration:0;
+  text-decoration:none;
 }
 
 @media (max-width: 680px) {
@@ -118,8 +118,6 @@ section{
 }
 article{
   display: grid;
-
-  justify-content: space-between;
   grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   grid-gap: 1rem;
   width: 100%;
